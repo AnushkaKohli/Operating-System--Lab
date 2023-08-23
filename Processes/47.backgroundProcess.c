@@ -21,7 +21,7 @@ int main()
         // Child process
         sleep(50); // Run as a background process for fifty seconds
         printf("Child process: System information\n");
-        execl("/usr/bin/uname", "uname", "-a", NULL); // Execute the "uname -a" command
+        system("uname -a"); // Execute the "uname -a" command
         exit(0);
     }
     else
