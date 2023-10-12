@@ -1,3 +1,5 @@
+// Write a multi-threaded program where the main thread gets an integer number range from the user and then creates two child threads; one thread calculates the sum of all numbers in the range and prints it, and the second thread finds prime numbers in the range and prints them. The child thread must terminate by returning a value. The parent thread must wait for the child threads to finish, and it must also print the return values of the child threads.
+
 #include <stdio.h>
 #include <unistd.h>
 #include <pthread.h>

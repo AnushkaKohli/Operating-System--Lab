@@ -1,3 +1,5 @@
+// Write a program to print the odd and even numbers in a range parallelly using two different Threads. The range should start from 0 and the end of the range should be taken from the user input and passed to the threads as argument.
+
 #include <stdio.h>
 #include <unistd.h>
 #include <pthread.h>
