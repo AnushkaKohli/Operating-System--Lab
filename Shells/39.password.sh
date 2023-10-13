@@ -23,6 +23,7 @@ do
             echo "Enter your choice: "
             read ch
             case $ch in
+                # wc -l counts the number of lines in the output of who command
                 1) echo "Number of users currently logged in are: `who | wc -l`";;
                 2) echo "Calendar of current month is: `cal`";;
                 3) echo "Date is: `date +%d/%m/%Y`";;

@@ -3,6 +3,7 @@
 echo "Enter a string"
 read str
 len=`echo $str | wc -c`
+# wc -c counts the newline character as well, so the length will be one more than the actual length of the string
 len=`expr $len - 1`
 if [ $len -lt 10 ]
 then

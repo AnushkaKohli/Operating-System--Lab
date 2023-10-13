@@ -1,4 +1,4 @@
-# 37. Write a shell script, which will receive either the filename or the filename with its full path during execution. This script should print information bout the file as giving by ls –l command and display it in an informative manner.
+# 37. Write a shell script, which will receive either the filename or the filename with its full path during execution. This script should print information about the file as giving by ls –l command and display it in an informative manner.
 
 if [ $# -ne 1 ]
 then 

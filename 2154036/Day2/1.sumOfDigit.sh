@@ -1,4 +1,4 @@
-echo "Enter first number"
+echo "Enter the number"
 read a
 while [ $a -ne 0 ]
 do

@@ -4,8 +4,8 @@ echo "Enter a number"
 read a
 while [ $a -ne 0 ]
 do
-    b=`expr $a % 10`
-    sum=`expr $sum + $b`
+    rem=`expr $a % 10`
+    sum=`expr $sum + $rem`
     a=`expr $a / 10`
 done
 echo "Sum of digits = $sum"
