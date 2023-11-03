@@ -1,5 +1,4 @@
 # Write a shell script to sort a list of elements using bubble sort technique.
-
 echo "Enter number of elements"
 read num
 echo "Enter elements"
