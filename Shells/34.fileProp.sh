@@ -10,6 +10,7 @@ echo "Number of words: $(wc -w < "$1")"
 echo "Number of characters: $(wc -m < "$1")"
 echo "Number of lines: $(wc -l < "$1")"
 
+# The -f flag in shell scripting is a test operator used to check if a file exists and is a regular file. 
 if [ -f "$1" ]
 then
     echo "$1 is a regular file"

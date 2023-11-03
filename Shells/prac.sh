@@ -1,0 +1,1 @@
+ls -l | tr -s ' ' | cut -d ' ' -f 6 | grep Aug

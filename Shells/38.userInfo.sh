@@ -9,6 +9,8 @@ fi
 log_name=$1
 password_file="/etc/passwd"
 
+# The -q option stands for "quiet" or "silent". When this option is used, grep will not output anything to the terminal. Instead, it will simply set its exit status to indicate whether it found a match or not. 
+# The exit status of grep is 0 if a match was found and 1 if no match was found. If an error occurred, the exit status is 2.
 if ! grep -q "^[^:]*:$log_name:" "$password_file"
 then
     echo "User $log_name does not exist"
